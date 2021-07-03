@@ -5,6 +5,10 @@ application up and running.
 
 Things you may want to cover:
 
+* How to run develop
+
+        $ docker-compose up
+
 * Ruby version
 
 * System dependencies
