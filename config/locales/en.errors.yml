@@ -1,0 +1,8 @@
+en:
+  activemodel:
+    errors:
+      models:
+        site/api/v1/user_sign_in_form:
+          attributes:
+            password:
+              invalid_email: symbol @ must exist
