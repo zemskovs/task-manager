@@ -1,3 +1,4 @@
-class Web::BoardsController < Web::ApplicationController
-  def show; end
+class Web::BoardsController < ApplicationController
+  def show
+  end
 end
