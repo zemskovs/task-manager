@@ -1,2 +1,4 @@
-= simple_form_for @user, as: :user, url: admin_users_path do |f|
-  = render partial: '_form', locals: { admin_users_url: admin_users_url }
+= content_for :title do
+  h4 Edit user
+  
+= render partial: "form", locals: {form_user: [:admin, @user], path: admin_users_url, form_title: 'h4 Edit user', button_name: 'Confirm'}
