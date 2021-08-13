@@ -1,0 +1,7 @@
+en:
+  activemodel:
+    errors:
+      models:
+        user:
+          attributes:
+            email: symbol @ must exist
