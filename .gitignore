@@ -4,6 +4,7 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+/node_modules
 # Ignore bundler config.
 /.bundle
 
@@ -29,3 +30,9 @@
 /config/master.key
 
 .devcontainer/*
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
