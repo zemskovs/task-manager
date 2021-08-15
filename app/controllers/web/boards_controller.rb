@@ -1,4 +1,5 @@
-class Web::BoardsController < ApplicationController
-  def show
-  end
+class Web::BoardsController < Web::ApplicationController
+  before_action :authenticate_user!
+
+  def show; end
 end
