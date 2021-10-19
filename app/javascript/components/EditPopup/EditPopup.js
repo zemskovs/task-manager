@@ -50,6 +50,7 @@ const EditPopup = ({ cardId, onClose, onCardDestroy, onLoadCard, onCardUpdate })
       alert(`Destrucion Failed! Error: ${error.message}`);
     });
   };
+
   const isLoading = isNil(task);
 
   return (
